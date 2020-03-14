@@ -1,0 +1,20 @@
+name: reEditBook
+version: @version@
+main: com.github.rnlin.reedit.ReEditPlugin
+api-version: 1.15
+authors: [rnlin]
+description: Minecraftの署名済み本を再編集するためのSpigot用プラグイン。
+website: https://github.com/rnlin430
+
+commands:
+  reedit:
+    description: It's main commands of this plugin.
+    aliases: [re]
+    usage:
+      /<command>
+    permisson: reeditbook.command.reedit
+    permission-message: You don't have the permission <permission>.
+permissions:
+  reeditbook.command.reedit:
+    description: \"reedit\" command permission.
+    default: true
