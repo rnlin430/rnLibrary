@@ -1,4 +1,4 @@
-package com.github.rnlin.rnlibrary;
+package com.github.rnlin430.rnlibrary;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
